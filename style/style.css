@@ -44,9 +44,12 @@ justify-content:center;
 list-style: none;
 font-size: 180%;
 padding: 1%;
+color: black;
 }
 
 li {margin: 1%;}
+
+.enlace {color: green; text-decoration: none;}
 
 .carousel {display: flex;
 flex-wrap: wrap;
@@ -93,6 +96,12 @@ width: 25%;
 margin-left: 6%;
 margin-top: 5%;
 }
+
+.btn-primary {background-color: green;
+border-color: green;}
+
+.btn-primary:hover{background-color: black;
+border-color: black;}
 
 .footer {display: flex;
 margin-bottom: 3%;}
