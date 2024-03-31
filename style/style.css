@@ -1,8 +1,6 @@
 /*medias query*/
 @media only screen and (max-width: 500px) {
-.imagenlogo {width: 1000%;
-height: 250%;
-text-align: center;}
+.imagenlogo {text-align: center;}
 
 .grid-container {display: flex;}
 header {display: flex;
