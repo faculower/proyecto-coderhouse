@@ -1,0 +1,30 @@
+/*medias query mobile*/
+/*medias query*/
+@media only screen and (max-width: 500px) {
+    .imagenlogo {text-align: center;}
+    
+    .grid-container {display: flex;}
+    
+    header {display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    font-size: 55%;}
+    
+    main {font-size: 50%;
+    text-align: center;}
+    
+    section {font-size: 50%;
+    text-align: center;}
+    
+    footer {font-size: 50%;
+    text-align: center;}
+    
+    /*jardines verticales*/
+    .grid-container {margin-top: 10%;
+    margin-bottom: 25%;}
+    .texto-mobile-no {display: none;}
+    
+    /*contact-us*/
+    .linkcontactus {display: flex;}    
+    }
+    
