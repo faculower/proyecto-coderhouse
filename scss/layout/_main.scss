@@ -1,3 +1,5 @@
+$fuente-parrafo: "Lato", sans-serif;
+
 .main{display: flex;
     justify-content: center;
     margin-right: 8%;
@@ -9,14 +11,14 @@
             margin-top: 1%;
 
             .inicio {
-                font-family: "Lato", sans-serif;
+                font-family: $fuente-parrafo;
                 text-align: center; 
                 font-size: 300%;
                 padding-top: 2%;}
             }
         }
         .descripcion-inicio {text-align: center;
-            font-family: "Lato", sans-serif;
+            font-family: $fuente-parrafo;
             font-size: 130%;
             margin-top: 3%;
         }
@@ -29,7 +31,7 @@
 }
 
 section {
-    font-family: "Lato", sans-serif;
+    font-family: $fuente-parrafo;
     text-align: center; 
     font-size: 150%;
     padding-top: 2%;

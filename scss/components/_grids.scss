@@ -1,3 +1,8 @@
+@mixin propiedades-grid-item {
+justify-content: center;
+align-self: center;    
+}
+
 .grid-container {margin-top: 2%;
     margin-bottom: 5%;
     flex-wrap: wrap;
@@ -14,50 +19,40 @@
 
     .grid-item-texto-1 {grid-row: 1 / 2;
     grid-column: 1 / 2;
-    justify-content: center;
-    align-self: center;
+    @include propiedades-grid-item();
     margin-left: 10%;}
 
     .grid-item-video-1 {grid-row: 1 / 2;
     grid-column: 2 / 3; 
-    justify-content: center;
-    align-self: center;
+    @include propiedades-grid-item();
     margin-right: 10%;}
 
     .grid-item-texto-2 {grid-row: 2 / 3;
     grid-column: 2 / 3;
-    justify-content: center;
-    align-self: center;
+    @include propiedades-grid-item();
     margin-right: 10%;}
 
     .grid-item-video-2 {grid-row: 2 / 3;
     grid-column: 1 / 2;
-    justify-content: center;
-    align-self: center;
+    @include propiedades-grid-item();
     margin-left: 15%;}
 
     .grid-item-texto-3 {grid-row: 3 / 4;
     grid-column: 1 / 2;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10%;
-    align-self: center;}
+    @include propiedades-grid-item();
+    margin-left: 10%;}
         
     .grid-item-video-3 {grid-row: 3 / 4;
     grid-column: 2 / 3;
-    justify-content: center;
-    align-self: center;
+    @include propiedades-grid-item();
     margin-right: 10%;}
         
     .grid-item-texto-4 {grid-row: 4 / 5;
     grid-column: 2 / 3;
-    justify-content: center;
-    align-self: center;
-    margin-right: 10%;
-    align-self: center;}
+    @include propiedades-grid-item();
+    margin-right: 10%;}
             
     .grid-item-video-4 {grid-row: 4 / 5;
     grid-column: 1 / 2;
-    justify-content: center;
-    align-self: center;
+    @include propiedades-grid-item();
     margin-left: 15%;}

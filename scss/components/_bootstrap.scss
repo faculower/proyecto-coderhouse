@@ -15,17 +15,25 @@ div {
             .card {margin-left: 1%;
             margin-right: 1%;
                 
+                .card-body {    
+                    
+                    .card-title {font-size: 100%;}
+                    .card-text  {font-size: 100%;}
+                    
+                    .btn-primary {background-color: green;
+                    border-color: green;}
+                            
+                        .btn-primary:hover {background-color: black;
+                        border-color: black;}
+                        }
+                
                 .card-img-top {
                 width: 25%;
                 margin-left: 6%;
                 margin-top: 5%;
-                    
-                    .btn-primary {background-color: green;
-                    border-color: green;}
-                    
-                    .btn-primary:hover{background-color: black;
-                    border-color: black;}
+                
                 }
             }
         }
     }
+    
