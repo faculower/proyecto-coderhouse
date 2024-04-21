@@ -1,15 +1,16 @@
 /*medias query mobile*/
 /*medias query*/
 @media only screen and (max-width: 500px) {
-  .imagenlogo {
+  .logo-1 .imagenlogo {
     text-align: center;
+    width: 30%;
   }
   /*inicio*/
   header {
     flex-wrap: wrap;
     flex-flow: wrap;
     justify-content: center;
-    font-size: 50%;
+    font-size: 45%;
   }
   main {
     font-size: 50%;
@@ -32,6 +33,12 @@
   div .cards .card .card-body .card-text {
     font-size: 7%;
   }
+  /*footer*/
+  .footer footer .logo-1 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
   /*sobre nosotros*/
   div section .parrafojardinvertical {
     font-size: 50%;
@@ -42,26 +49,26 @@
     margin: 5%;
   }
   /*jardines verticales*/
-  .grid-container, .footer footer p {
+  .grid-container {
     margin-top: 5%;
     margin-bottom: 25%;
   }
   .texto-mobile-no {
     display: none;
   }
-  .grid-container, .footer footer p {
+  .grid-container {
     flex-wrap: wrap;
   }
-  .grid-container .grid-item-texto-1 .parrafojardinvertical, .footer footer p .grid-item-texto-1 .parrafojardinvertical {
+  .grid-container .grid-item-texto-1 .parrafojardinvertical {
     font-size: 50%;
   }
-  .grid-container .grid-item-texto-2 .parrafojardinvertical, .footer footer p .grid-item-texto-2 .parrafojardinvertical {
+  .grid-container .grid-item-texto-2 .parrafojardinvertical {
     font-size: 50%;
   }
-  .grid-container .grid-item-texto-3 .parrafojardinvertical, .footer footer p .grid-item-texto-3 .parrafojardinvertical {
+  .grid-container .grid-item-texto-3 .parrafojardinvertical {
     font-size: 50%;
   }
-  .grid-container .grid-item-texto-4 .parrafojardinvertical, .footer footer p .grid-item-texto-4 .parrafojardinvertical {
+  .grid-container .grid-item-texto-4 .parrafojardinvertical {
     font-size: 50%;
   }
 }
@@ -190,7 +197,7 @@ div .cards .card .card-img-top {
   margin-top: 5%;
 }
 
-.grid-container, .footer footer p {
+.grid-container {
   margin-top: 2%;
   margin-bottom: 5%;
   flex-wrap: wrap;
@@ -285,8 +292,15 @@ div .cards .card .card-img-top {
   display: flex;
   margin-bottom: 3%;
   position: relative;
-  margin-top: 10%;
+  margin-top: 2%;
 }
+.footer footer p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 160%;
+  font-weight: bolder;
+}
+
 section .imgportfolio .imagenportfolio {
   width: 80%;
 }
